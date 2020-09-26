@@ -17,6 +17,17 @@ public class MainFrame extends JDialog {
     private JLabel pwLabel;
     private JLabel pwConfirmLabel;
     private JLabel nameLabel;
+    private JRadioButton 정회원RadioButton;
+    private JRadioButton 준회원RadioButton;
+    private JRadioButton 학생회원RadioButton;
+    private JCheckBox 수영CheckBox;
+    private JCheckBox 게임CheckBox;
+    private JCheckBox 골프CheckBox;
+    private JCheckBox 스키CheckBox;
+    private JCheckBox 독서CheckBox;
+    private JCheckBox 테니스CheckBox;
+    private JComboBox comboBox1;
+    private JList list1;
     private JButton buttonCancel;
 
     public MainFrame() {
